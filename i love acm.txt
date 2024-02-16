@@ -28,3 +28,6 @@ def calculate_primes(n):
 n = int(input("Enter a number: "))
 print("Prime numbers up to", n, ":")
 print(calculate_primes(n))
+
+
+asdiuasidasdiu
