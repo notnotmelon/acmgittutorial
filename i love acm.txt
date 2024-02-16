@@ -6,6 +6,18 @@ def is_prime(n):
             return False
     return True
 
+import datetime
+
+def get_day_of_week(date):
+    days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    day_index = date.weekday()
+    return days_of_week[day_index]
+
+# Example usage:
+today = datetime.date.today()
+print("Today is", get_day_of_week(today))
+
+
 def calculate_primes(n):
     primes = []
     for num in range(2, n+1):
